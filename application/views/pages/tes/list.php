@@ -37,7 +37,7 @@
                             <table id="dataTable" class="responsive table card-table table-vcenter text-nowrap text-dark">
                                 <thead>
                                     <tr>
-                                        <th class="text-dark desktop mobile-l mobile-p tablet-l tablet-p" style="font-size: 11px">Nama Tes</th>
+                                        <th class="text-dark desktop mobile-l mobile-p tablet-l tablet-p text-wrap" style="font-size: 11px">Nama Tes</th>
                                         <th class="text-dark desktop w-1" style="font-size: 11px">Tgl Tes</th>
                                         <!-- <th class="text-dark desktop w-1" style="font-size: 11px">Tgl Pengumuman</th> -->
                                         <th class="text-dark desktop w-1" style="font-size: 11px">Soal</th>
