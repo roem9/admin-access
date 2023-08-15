@@ -49,8 +49,8 @@
         .qrcode{
             width: 210px;
 			position: absolute;
-            left: 36px;
-			bottom: 55px;
+            left: 57px;
+			bottom: 54px;
             font-size: 35px;
             word-spacing: 3px;
         }
@@ -60,7 +60,7 @@
             width: 600px;
 			position: absolute;
             left: 100px;
-			top: 200px;
+			top: 230px;
             font-size: 26px;
             font-family: 'Roboto', sans-serif;
             word-spacing: 3px;
@@ -71,7 +71,7 @@
             width: 600px;
 			position: absolute;
             left: 100px;
-			top: 238px;
+			top: 259px;
             font-size: 16px;
             font-family: 'Roboto', sans-serif;
             word-spacing: 3px;
@@ -167,7 +167,7 @@
             /* background-color: red; */
 			position: absolute;
             left: 606px;
-			bottom: 109px;
+			bottom: 107px;
             font-size: 14px;
             font-family: 'Roboto', sans-serif;
             word-spacing: 3px;
@@ -177,8 +177,8 @@
             /* background-color: red; */
             width: 200px;
 			position: absolute;
-            left: 370px;
-			top: 162px;
+            left: 364px;
+			top: 181px;
             font-size: 13px;
             font-family: 'Roboto', sans-serif;
             word-spacing: 3px;
@@ -223,7 +223,7 @@
 </head>
     <body style="text-align: center">
         <div class="qrcode">
-            <img src="<?= base_url()?>assets/qrcode/<?= $id?>.png" width=145 alt="">
+            <img src="<?= base_url()?>assets/qrcode/<?= $id?>.png" width=100 alt="">
         </div>
         <div class="nilai"><p style="text-align: right; margin: 0px"><b><?= round($skor)?></b></p></div>
         <div class="nama"><p style="text-align: center; margin: 0px"><b><u><?= $nama?></u></b></p></div>
