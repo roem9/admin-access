@@ -137,7 +137,7 @@
             /* background-color: red; */
 			position: absolute;
             left: 395px;
-			bottom: 23px;
+			bottom: 22px;
             font-size: 14px;
             font-family: 'Roboto', sans-serif;
             word-spacing: 3px;
@@ -146,8 +146,8 @@
         .tgl-2{
             /* background-color: red; */
 			position: absolute;
-            left: 629px;
-			bottom: 126px;
+            left: 643px;
+			bottom: 124px;
             font-size: 14px;
             font-family: 'Roboto', sans-serif;
             word-spacing: 3px;
@@ -237,7 +237,7 @@
         <div class="reading"><p style="text-align: right; margin: 0px"><b><?= $reading?></b></p></div>
         <div class="no_doc"><p style="margin: 0px"><?= $no_doc?></p></div>
         <div class="tgl"><p style="text-align: center; margin: 0px"><?= date("d-m-y", strtotime($tgl_tes))?></p></div>
-        <div class="tgl-2"><p style="text-align: center; margin: 0px"><?= tgl_sertifikat(date("d-m-y", strtotime($tgl_tes)))?></p></div>
+        <div class="tgl-2"><p style="text-align: center; margin: 0px"><?= tgl_sertifikat(date("d-m-Y", strtotime($tgl_tes)))?></p></div>
         <!-- <div class="tgl_akhir"><p style="text-align: center; margin: 0px"><?= date("d/m/y", strtotime('+1 years', strtotime($tgl_tes)))?></p></div>
         <div class="tgl_tes"><p style="text-align: center; margin: 0px"><?= tgl_sertifikat(date("d-m-Y", strtotime($tgl_tes)))?></p></div> -->
     </body>
